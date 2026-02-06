@@ -57,7 +57,7 @@ models/*.pkl
 !models/.gitkeep
 
 # Results (generated files)
-results/*/
+# results/*/  # Commented out to include all result files
 !results/.gitkeep
 
 # Temporary files
