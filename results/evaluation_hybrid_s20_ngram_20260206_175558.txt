@@ -1,0 +1,36 @@
+============================================================
+HMM-Based Anomaly Detection - Evaluation Results
+============================================================
+
+[Configuration]
+  Model Type: Hybrid HMM + Random Forest
+  Window Size: 500
+  HMM Hidden States: 20
+  Use N-grams: True
+  RF n_estimators: 100
+  Observations: 92
+
+[Confusion Matrix]
+  True Negative  (TN): 35
+  False Positive (FP): 1
+  False Negative (FN): 5
+  True Positive  (TP): 103
+
+[Performance Metrics]
+  False Positive Rate (FPR): 0.0278 (2.78%)
+  True Positive Rate  (TPR): 0.9537 (95.37%)
+  Detection Rate:            0.9537 (95.37%)
+  Precision:                 0.9904
+  Recall:                    0.9537
+  F1-Score:                  0.9717
+  Accuracy:                  0.9583
+
+[Detection Rate by Attack Type]
+  Adduser             : 1.0000 (100.00%)
+  Hydra_FTP           : 1.0000 (100.00%)
+  Hydra_SSH           : 1.0000 (100.00%)
+  Java_Meterpreter    : 0.9545 (95.45%)
+  Meterpreter         : 0.8571 (85.71%)
+  Web_Shell           : 0.9130 (91.30%)
+
+============================================================
